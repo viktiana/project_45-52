@@ -1,0 +1,42 @@
+:root{
+    --text-color: #0D2F44;
+}
+
+body{
+    font-family: "Manrope", sans-serif;
+    color: var(--text-color);
+    background-color: #BCE2F1;
+    width: 100%;
+}
+
+h3{
+    font-weight: 600;
+}
+
+h2{
+    font-weight: 600;
+}
+
+.img1{
+    width: 400px;
+    height: 600px;
+}
+
+.img2{
+    width: 222px;
+    height: 360px;
+}
+
+.img-stick{
+    width: 141.48px;
+    height: 157.07px;
+}
+
+.div-ratings{
+    display: grid;
+    grid-template-columns: repeat(4, 130px);
+    grid-template-rows: repeat(4, 60px);
+}
+
+.div-text-p{
+}
