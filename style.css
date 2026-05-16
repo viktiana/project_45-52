@@ -1,42 +1,106 @@
-:root{
+:root {
     --text-color: #0D2F44;
 }
 
-body{
+body {
     font-family: "Manrope", sans-serif;
     color: var(--text-color);
     background-color: #BCE2F1;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h3{
+h3 {
     font-weight: 600;
 }
 
-h2{
+h2 {
     font-weight: 600;
 }
 
-.img1{
+.div-img {
+    position: relative;
     width: 400px;
     height: 600px;
+    left: -100px;
 }
 
-.img2{
+.img1 {
+    width: 400px;
+    height: 600px;
+    display: block;
+}
+
+.img2 {
     width: 222px;
     height: 360px;
+    position: absolute;
+    bottom: -20px;
+    right: -50px;
+    z-index: 2;
+
 }
 
-.img-stick{
+.img-stick {
     width: 141.48px;
     height: 157.07px;
+    position: absolute;
+    top: 150px;
+    right: -50px;
+    z-index: 3;
 }
 
-.div-ratings{
+.div-ratings {
     display: grid;
-    grid-template-columns: repeat(4, 130px);
-    grid-template-rows: repeat(4, 60px);
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
 }
 
-.div-text-p{
+.div-text {
+    max-width: 556px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.div-text p:first-child {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    margin-top: 100px;
+
+}
+
+.div-text-p {
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+
+.div-text p:last-child {
+    margin-bottom: 44px;
+}
+
+.div-h3 {
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.div-p {
+    font-size: 18px;
+    line-height: 1.6;
 }
